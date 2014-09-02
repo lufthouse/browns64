@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Element - Responsive Mulitpurpose Business Theme</title>
+<link href='http://fonts.googleapis.com/css?family=Bree+Serif%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" data-name="skins">
+<link rel="stylesheet" type="text/css" href="css/allstyle.css">
+<!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+<body class="stretched">
+<div id="wrapper" class="clearfix">
+  <div id="top-bar"> </div>
+  <div class="cbp-af-header">
+    <div class="cbp-af-inner">
+      <div id="header">
+        <div class="container clearfix">
+          <div id="logo"> <a href="index.html"><img src="images/logo.png" alt="Element" title="Element" /></a> </div>
+          <div class="social-sec"> <a class="fb" href="#"></a> <a class="tw" href="#"></a> <a class="v" href="#"></a> </div>
+          <a href="#" class="openmenu"><i class="fa fa-bars"></i></a>
+          <script>
+      $(document).ready(function(){
+"use strict";
+      $('a.openmenu').on('click',function(){
+         $(".closed").toggleClass('opened');
+      });
+ });
+</script>
+          <div id="primary-menu" class="menu closed">
+            <ul class="menu">
+              <li><a href="#" > Home</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu">
+                  <div class="col-1">
+                    <ol>
+                      <li><a href="index.html">Homepage 1</a></li>
+                      <li><a href="index-layout2.html">Homepage 2</a></li>
+                      <li><a href="index-layout3.html">Homepage 3</a></li>
+                      <li><a href="index-layout4.html">Homepage 4</a></li>
+                      <li><a href="index-layout5.html">Homepage 5</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <ol>
+                      <li><a href="index-layout6.html">Homepage 6</a></li>
+                      <li><a href="index-layout7.html">Homepage 7</a></li>
+                      <li><a href="index-layout8.html">Homepage 8</a></li>
+                      <li><a href="index-layout9.html">Homepage 9</a></li>
+                      <li><a href="index-layout5.html">Homepage 10</a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" > Pages</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu full-width bornone">
+                  <div class="col-1">
+                    <h4>Pages</h4>
+                    <ol>
+                      <li><a href="full-width.html">Full Width</a></li>
+                      <li><a href="page-right-side.html">Page Right Sidebar</a></li>
+                      <li><a href="page-left-side.html">Page Left Sidebar</a></li>
+                      <li><a href="blank-page.html">Blank Page</a></li>
+                      <li><a href="404.html">404 page</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Service related</h4>
+                    <ol>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="services.html">Service</a></li>
+                      <li><a href="pricing-1.html">Pricing Table 1</a></li>
+                      <li><a href="pricing-2.html">Pricing Table 2</a></li>
+                      <li><a href="comingsoon.html">Comming Soon</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Contact</h4>
+                    <ol>
+                      <li><a href="contact.html">Contact Full</a></li>
+                      <li><a href="contact-left.html">Contact Left</a></li>
+                      <li><a href="contact-right.html">Contact Right</a></li>
+                      <li><a href="contact-sidebar.html">Contact Sidebar</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Header Style </h4>
+                    <ol>
+                      <li><a href="index-header-2.html">Header Style 1</a></li>
+                      <li><a href="index-header-3.html">Header Style 2</a></li>
+                      <li><a href="index-header-4.html">Header Style 3</a></li>
+                      <li><a href="index-header-5.html">Header Style 4</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-1">
+                    <h4>Footer Style </h4>
+                    <ol>
+                      <li><a href="index-footer-light.html">Footer Light</a></li>
+                      <li><a href="index.html">Footer Dark Default</a></li>
+                      <li><a href="index-footer-small.html">Footer No Widget</a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" > Portfolio</a>
+                <!-- Mega Menu / Start -->
+                <ul>
+                  <li><a href="portfolio-2.html">Portfolio 2 Column</a></li>
+                  <li><a href="portfolio-3.html">Portfolio 3 Column</a></li>
+                  <li><a href="portfolio-4.html">Portfolio 4 Column</a></li>
+                  <li><a href="portfolio-4-column.html">Portfolio 4 Column - Sidebar</a></li>
+                  <li><a href="#" class="arrow">Portfolio Single</a>
+                    <!-- Drop-Down / Start -->
+                    <ul>
+                      <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                      <li><a href="portfolio-single-full-gallery.html">Portfolio Full width</a></li>
+                    </ul>
+                    <!-- Drop-Down / End -->
+                  </li>
+                </ul>
+                <!-- Mega Menu / End -->
+              </li>
+              <li><a href="#" >Blog</a>
+                <!-- Right Floated Drop-Down / Start -->
+                <ul>
+                  <li><a href="blog.html">Blog Default</a></li>
+                  <li><a href="blog-full.html">Blog Full</a></li>
+                  <li><a href="blog-small.html">Blog Small </a></li>
+                  <li><a href="blog-single.html">Blog Single</a></li>
+                </ul>
+                <!-- Right Floated Drop-Down / End -->
+              </li>
+              <li><a href="#" > Shortcode</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu full-width">
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="shortcode.html#accordion"><i class="fa fa-align-justify"></i>Accordian & Toggles</a></li>
+                      <li> <a href="shortcode.html#buttons"><i class="fa fa-hand-o-up"></i> Buttons</a> </li>
+                      <li><a href="typography.html#list"><i class="fa fa-list-ol"></i>List Style</a></li>
+                      <li><a href="shortcode.html#tabs"><i class="fa fa-tasks"></i> Tabs</a></li>
+                      <li><a href="design-element.html#crausal"><i class="fa fa-filter"></i>Crausal</a></li>
+                      <li><a href="shortcode.html#gmap"><i class="fa fa-map-marker"></i>Google Map</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="design-element.html#ourteam"><i class="fa fa-users"></i>Our Team</a></li>
+                      <li><a href="shortcode.html#progress"><i class="fa fa-signal"></i>Progress Bar</a></li>
+                      <li><a href="#"><i class="fa fa-tachometer"></i>Parallax Background</a></li>
+                      <li><a href="design-element.html#testscroll"><i class="fa fa-user"></i> Testimonial Scroller</a></li>
+                      <li><a href="shortcode.html#alert"><i class="fa fa-bullhorn"></i>Notification</a></li>
+                      <li><a href="shortcode.html#pagination"><i class="fa fa-terminal"></i>Pagination</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="shortcode.html#tables"><i class="fa fa-table"></i>Tables</a></li>
+                      <li><a href="shortcode.html#popup"><i class="fa fa-ellipsis-h"></i>Popovers & Tool Tip</a></li>
+                      <li><a href="design-element.html#headingstyle"><i class="fa fa-text-height"></i>Heading Style </a></li>
+                      <li><a href="columns.html"><span class="heigh"><i class="fa fa-columns"></i>Columns Type</span></a></li>
+                      <li><a href="icons.html"><span class="heigh"><i class="fa fa-tint"></i> Retina Icons</span></a></li>
+                      <li><a href="typography.html#typo"><span class="heigh"><i class="fa fa-font"></i>Typography </span></a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" > Feature</a>
+                <!-- Full Width Mega-Menu / Start -->
+                <div class="mega-menu full-width">
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="#"><i class="fa fa-bell-o"></i>Footer Styles</a></li>
+                      <li> <a href="#"><i class="fa fa-bolt"></i> Custom Widgets</a> </li>
+                      <li><a href="#"><i class="fa fa-book"></i>Custom Background</a></li>
+                      <li><a href="#"><i class="fa fa-bookmark-o"></i>9 Type of Skin</a></li>
+                      <li><a href="#"><i class="fa fa-briefcase"></i> Custom Patterns</a></li>
+                      <li><a href="#"><i class="fa fa-bold"></i>Google Font</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="#"><i class="fa fa-code"></i>Clean Code</a></li>
+                      <li><a href="#"><i class="fa fa-check"></i>PSD Included </a></li>
+                      <li><a href="#"><i class="fa fa-location-arrow"></i> 100+ Shortcodes</a></li>
+                      <li><a href="#"><i class="fa fa-star-half-o"></i> 1600+ Ratina  Icons</a></li>
+                      <li><a href="#"><i class="fa fa-columns"></i>4 Type of Blog Styles</a></li>
+                      <li><a href="#"><i class="fa fa-unlink"></i>Boxed and Full Layout</a></li>
+                    </ol>
+                  </div>
+                  <div class="col-2">
+                    <ol>
+                      <li><a href="#"><i class="fa fa-font"></i>Header Styles</a></li>
+                      <li><a href="#"><i class="fa fa-umbrella"></i>100% Responsive</a></li>
+                      <li><a href="#"><i class="fa fa-thumbs-o-up"></i> Retina Ready</a></li>
+                      <li><a href="#"><i class="fa fa-tablet"></i> Well Documentation &amp; Support</a></li>
+                      <li><a href="#"><i class="fa fa-random"></i> Revolution  Slider</a></li>
+                      <li><a href="#"><i class="fa fa-wheelchair"></i>Demo Content</a></li>
+                    </ol>
+                  </div>
+                </div>
+                <!-- Full Width Mega-Menu / End -->
+              </li>
+              <li><a href="#" >Contact</a>
+                <!-- Right Floated Drop-Down / Start -->
+                <ul>
+                  <li><a href="contact.html">Contact Full</a></li>
+                  <li><a href="contact-left.html">Contact Left</a></li>
+                  <li><a href="contact-right.html">Contact Right</a></li>
+                  <li><a href="contact-sidebar.html">Contact Sidebar</a></li>
+                </ul>
+                <!-- Right Floated Drop-Down / End -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="slider" class="revolution-slider">
+    <div class="container clearfix">
+      <div class="fullwidthbanner-container" >
+        <div class="fullwidthbanner" >
+          <ul class="clearfix">
+            <li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300"> <img src="images/slider/2/bg.jpg">
+              <div class="caption large_text lfl"  
+										 data-x="300" 
+										 data-y="95" 
+										 data-speed="900" 
+										 data-start="1200" 
+										 data-easing="easeOutExpo" ><img src="images/slider/2/img1.png" ></div>
+              <div class="caption lfr ltb"
+										 data-x="150" 
+										 data-y="143" 
+										 data-speed="900" 
+										 data-start="1900" 
+										 data-easing="easeOutExpo" ><img src="images/slider/2/img2.png" ></div>
+              <div class="caption lfb ltb"
+										 data-x="240" 
+										 data-y="240" 
+										 data-speed="800" 
+										 data-start="2800" 
+										 data-easing="easeOutExpo" ><img src="images/slider/1/img3.png" ></div>
+            </li>
+            <li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <img src="images/slider/1/bg.jpg">
+              <div class="caption large_text lft"  
+										 data-x="600" 
+										 data-y="95" 
+										 data-speed="800" 
+										 data-start="1200" 
+										 data-easing="easeOutExpo"><img src="images/slider/1/heading.png" ></div>
+              <div class="caption lfb ltb"
+										 data-x="0" 
+										 data-y="37" 
+										 data-speed="900" 
+										 data-start="1900" 
+										 data-easing="easeOutExpo" ><img src="images/slider/1/img2.png" ></div>
+              <div class="caption lft ltb" 
+										 data-x="250" 
+										 data-y="-30" 
+										 data-speed="900" 
+										 data-start="1900" 
+										 data-easing="easeOutExpo" ><img src="images/slider/1/slide_2_2.png" ></div>
+              <div class="caption lfb ltb"
+										 data-x="490" 
+										 data-y="240" 
+										 data-speed="800" 
+										 data-start="2800" 
+										 data-easing="easeOutExpo"><img src="images/slider/1/img3.png" ></div>
+            </li>
+            <li data-transition="random" data-slotamount="10" data-delay="8500" data-masterspeed="300"> <img src="images/slider/3/bg.jpg">
+              <div class="caption lfb lfl"  
+										 data-x="0" 
+										 data-y="40" 
+										 data-speed="900" 
+										 data-start="1200" 
+										 data-easing="easeOutExpo" ><img src="images/slider/3/img1.png" ></div>
+              <div class="caption lft ltb"
+										 data-x="386" 
+										 data-y="190" 
+										 data-speed="900" 
+										 data-start="1900" 
+										 data-easing="easeOutExpo" ><img src="images/slider/3/img2.png" ></div>
+              <div class="caption lfb ltb"
+										 data-x="340" 
+										 data-y="230" 
+										 data-speed="900" 
+										 data-start="2900" 
+										 data-easing="easeOutExpo" ><img src="images/slider/3/img3.png" ></div>
+            </li>
+          </ul>
+          <div class="slider-line"></div>
+        </div>
+      </div>
+      <script type="text/javascript">
+
+    				var tpj=jQuery;
+    				tpj.noConflict();
+    
+    				tpj(document).ready(function() {
+    
+    				if (tpj.fn.cssOriginal!=undefined)
+    					tpj.fn.css = tpj.fn.cssOriginal;
+    
+    					tpj('.fullwidthbanner').revolution(
+    						{
+    							delay:9000,
+    							startwidth:1020,
+    							startheight:400,
+    
+    							onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
+    
+    							thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+    							thumbHeight:50,
+    							thumbAmount:3,
+                                
+    							navigationType:"none",					//bullet, thumb, none, both	 (No Shadow in Fullwidth Version !)
+    							navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+    							navigationStyle:"square",				//round,square,navbar
+    
+    							touchenabled:"on",						// Enable Swipe Function : on/off
+    
+    							navOffsetHorizontal:0,
+    							navOffsetVertical:10,
+    
+    							stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+    							stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+    
+    							hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+    							hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+    							hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+    							
+    
+    							fullWidth:"on",
+    
+    							shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+    
+    						});
+                
+    			});
+    
+    			</script>
+    </div>
+  </div>
+  <div class="row-fluid" style="">
+    <section class="container clearfix">
+      <section class="span4">
+        <div class="sec-left type2">
+          <div class="top-row">
+            <div class="left-icon"> <i class="fa fa-desktop">&nbsp;</i> </div>
+            <h5>Responsive</h5>
+          </div>
+          <p> Nullam convallis euismod moallis sem sem, 
+            egestas non imperdiet eget. </p>
+        </div>
+      </section>
+      <section class="span4">
+        <div class="sec-mid type2">
+          <div class="top-row">
+            <div class="left-icon"> <i class="fa fa-pencil-square-o">&nbsp;</i> </div>
+            <h5>Customize</h5>
+          </div>
+          <p> Nullam convallis euismod moallis sem sem, 
+            egestas non imperdiet eget. </p>
+        </div>
+      </section>
+      <section class="span4">
+        <div class="sec-right type2">
+          <div class="top-row">
+            <div class="left-icon"> <i class="fa fa-dribbble">&nbsp;</i> </div>
+            <h5>Unique</h5>
+          </div>
+          <p> Nullam convallis euismod moallis sem sem, 
+            egestas non imperdiet eget. </p>
+        </div>
+      </section>
+      <div class="clear"></div>
+    </section>
+  </div>
+  <div id="content">
+    <div class="content-wrap">
+      <div class="bg-gray">
+        <div class="container clearfix">
+          <div class="col_full">
+            <div class="big-head">
+              <h3>Welcome to <strong>Element</strong> - <span class="blue-txt">Html5/Css3</span> Multipurpose Theme</h3>
+              <p> Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis. There are many variations of passages of Lorem Ipsum available, but the majority have suffere altration in some form. </p>
+              <div class="txt-center">
+                <button class="btn btn-info btn-large" type="button"><i class="fa fa-bolt"></i> Purchase Now</button>
+                <button class="btn btn-inverse btn-large" type="button"><i class="fa fa-bullhorn"></i> View More !</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <div class="col_full">
+          <div class="separator_block center">
+            <div class="gap"> </div>
+            <h3>Latest <span class="blue-txt">Project</span></h3>
+            <p> Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Nullam convallis euismod mollis. There are many variations of passages of Lorem Ipsum available, but the majority have suffere altration in some form. </p>
+            <div class="col_full">
+              <div id="portfolio" class="scroll-portfolio clearfix">
+                <div class="portfolio-item pf-icons pf-media">
+                  <div class="portfolio-image"> <a href="images/portfolio/1/img1.jpg"><img src="images/portfolio/1/img1.jpg" alt="img1" width="225" height="162" /></a> <a class="hidden" href="images/portfolio/1/img1.jpg" rel="prettyPhoto[gal1]"></a> <a class="hidden" href="images/portfolio/1/img1.jpg" rel="prettyPhoto[gal1]"></a>
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-overlay-wrap">
+                        <p>Starting your website is easy, but if you want to make customizations, you can contact our support.</p>
+                        <span><span></span></span> <a href="#">Design</a> &middot; <a href="#">Illustrate</a> </div>
+                      <div class="p-overlay-icons clearfix"> <a href="images/portfolio/1/img1.jpg" class="p-o-gallery" rel="prettyPhoto[gal1]"></a> <a href="#" class="p-o-link"></a> </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-title">
+                    <div class="footer-heading clearfix">
+                      <h6>Graphics Design</h6>
+                      <span class="icon-right"> <i class="fa fa-heart">&nbsp;</i><span class="loveeye-txt">216</span> <i class="fa fa-eye">&nbsp;</i><span class="loveeye-txt">120</span> </span> </div>
+                  </div>
+                </div>
+                <div class="portfolio-item pf-uielements">
+                  <div class="portfolio-image"> <a href="#"><img src="images/portfolio/1/img2.jpg" alt="img1"  /></a>
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-overlay-wrap">
+                        <p>Starting your website is easy, but if you want to make customizations, you can contact our support.</p>
+                        <span><span></span></span> <a href="#">Design</a> &middot; <a href="#">Illustrate</a> </div>
+                      <div class="p-overlay-icons clearfix"> <a href="images/portfolio/full/2.jpg" class="p-o-image" rel="prettyPhoto"></a> <a href="portfolio-single.html" class="p-o-link"></a> </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-title">
+                    <div class="footer-heading clearfix">
+                      <h6>Graphics Design</h6>
+                      <span class="icon-right"> <i class="fa fa-heart">&nbsp;</i><span class="loveeye-txt">216</span> <i class="fa fa-eye">&nbsp;</i><span class="loveeye-txt">120</span> </span> </div>
+                  </div>
+                </div>
+                <div class="portfolio-item pf-illustrations">
+                  <div class="portfolio-image"> <a href="images/portfolio/1/img3.jpg"><img src="images/portfolio/1/img3.jpg" alt="img3" /></a> <a class="hidden" href="images/portfolio/full/3-2.jpg" rel="prettyPhoto[gal2]"></a>
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-overlay-wrap">
+                        <p>Snde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu.</p>
+                        <span><span></span></span> <a href="#">Web design</a> </div>
+                      <div class="p-overlay-icons clearfix"> <a href="images/portfolio/full/3.jpg" class="p-o-gallery" rel="prettyPhoto[gal2]"></a> <a href="#" class="p-o-link"></a> </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-title">
+                    <div class="footer-heading clearfix">
+                      <h6>Graphics Design</h6>
+                      <span class="icon-right"> <i class="fa fa-heart">&nbsp;</i><span class="loveeye-txt">216</span> <i class="fa fa-eye">&nbsp;</i><span class="loveeye-txt">120</span> </span> </div>
+                  </div>
+                </div>
+                <div class="portfolio-item pf-illustrations pf-graphics">
+                  <div class="portfolio-image"> <a href="#"><img src="images/portfolio/1/img4.jpg" alt="Apple Keyboard" title="img4" /></a>
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-overlay-wrap">
+                        <p>Perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium .</p>
+                        <span><span></span></span> <a href="#">Illustrations</a> &middot; <a href="#">Graphics</a> </div>
+                      <div class="p-overlay-icons clearfix"> <a href="images/portfolio/full/4.jpg" class="p-o-image" rel="prettyPhoto"></a> <a href="portfolio-single.html" class="p-o-link"></a> </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-title">
+                    <div class="footer-heading clearfix">
+                      <h6>Graphics Design</h6>
+                      <span class="icon-right"> <i class="fa fa-heart">&nbsp;</i><span class="loveeye-txt">216</span> <i class="fa fa-eye">&nbsp;</i><span class="loveeye-txt">120</span> </span> </div>
+                  </div>
+                </div>
+                <div class="portfolio-item pf-illustrations">
+                  <div class="portfolio-image"> <a href="images/portfolio/1/img3.jpg"><img src="images/portfolio/1/img3.jpg" alt="img3" /></a> <a class="hidden" href="images/portfolio/full/3-2.jpg" rel="prettyPhoto[gal2]"></a>
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-overlay-wrap">
+                        <p>Snde omnis iste natus voluptatem fringilla tempor dignissim at, pretium et arcu.</p>
+                        <span><span></span></span> <a href="#">Web design</a> </div>
+                      <div class="p-overlay-icons clearfix"> <a href="images/portfolio/full/3.jpg" class="p-o-gallery" rel="prettyPhoto[gal2]"></a> <a href="#" class="p-o-link"></a> </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-title">
+                    <div class="footer-heading clearfix">
+                      <h6>Graphics Design</h6>
+                      <span class="icon-right"> <i class="fa fa-heart">&nbsp;</i><span class="loveeye-txt">216</span> <i class="fa fa-eye">&nbsp;</i><span class="loveeye-txt">120</span> </span> </div>
+                  </div>
+                </div>
+                <div class="portfolio-item pf-illustrations pf-graphics">
+                  <div class="portfolio-image"> <a href="#"><img src="images/portfolio/1/img4.jpg" alt="Apple Keyboard" title="img4" /></a>
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-overlay-wrap">
+                        <p>Perspiciatis unde omnis iste natus voluptatem fringilla tempor dignissim at, pretium .</p>
+                        <span><span></span></span> <a href="#">Illustrations</a> &middot; <a href="#">Graphics</a> </div>
+                      <div class="p-overlay-icons clearfix"> <a href="images/portfolio/full/4.jpg" class="p-o-image" rel="prettyPhoto"></a> <a href="portfolio-single.html" class="p-o-link"></a> </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-title">
+                    <div class="footer-heading clearfix">
+                      <h6>Graphics Design</h6>
+                      <span class="icon-right"> <i class="fa fa-heart">&nbsp;</i><span class="loveeye-txt">216</span> <i class="fa fa-eye">&nbsp;</i><span class="loveeye-txt">120</span> </span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="port-arro">
+                <div id="home-portfolio-prev" class="widget-scroll-prev"></div>
+                <div id="home-portfolio-next" class="widget-scroll-next"></div>
+              </div>
+              <script type="text/javascript">
+                        
+                            jQuery(document).ready(function($) {
+                                
+                                var portfolioCarousel = $("#portfolio");
+                                
+                                portfolioCarousel.carouFredSel({
+                                    width : "100%",
+                                    height : "auto",
+                                    circular : false,
+                                    responsive : true,
+                                    infinite : false,
+                                    auto : false,
+                                    items : {
+										width : 280,
+                                        visible: {
+                                            min: 1,
+                                            max: 4
+                                        }
+                                    },
+                                    scroll : {
+                                        wipe : true
+                                    },
+                                    prev : {	
+                                        button : "#home-portfolio-prev",
+                                        key : "left"
+                                    },
+                                    next : { 
+                                        button : "#home-portfolio-next",
+                                        key : "right"
+                                    },
+                                    onCreate : function () {
+                                        $(window).on('resize', function(){
+                                            portfolioCarousel.parent().add(portfolioCarousel).css('height', portfolioCarousel.children().first().outerHeight() + 'px');
+                                        }).trigger('resize');
+                                    }
+                                });
+                            
+                            });
+                        
+                        </script>
+            </div>
+          </div>
+          <div class="gap"> </div>
+        </div>
+        <div class="col_full">
+          <div class="separator_block center">
+            <div class="gap"> </div>
+            <h3><span class="blue-txt">Testimoniol</span></h3>
+            <div class="testimonial-scroller center" data-prev="#widget-testimonial-2-prev" data-next="#widget-testimonial-2-next">
+              <div class="testimonials" id="widget-testimonial-2">
+                <div class="testimonial-item">
+                  <div class="testi-content">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</div>
+                  <div class="testi-author">Parin<span><a href="#">DesignPrefix.com</a></span></div>
+                </div>
+                <div class="testimonial-item">
+                  <div class="testi-content">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</div>
+                  <div class="testi-author">Reacherd<span><a href="http://elegancelab.com/">EleganceLab</a></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="test-scrol">
+              <div id="widget-testimonial-2-prev" class="widget-scroll-prev"></div>
+              <div id="widget-testimonial-2-next" class="widget-scroll-next"></div>
+            </div>
+          </div>
+          <div class="gap"> </div
+		
+				>
+        </div>
+        <div class="col_full">
+          <div class="separator_block center">
+            <div class="gap"> </div>
+            <h3>Our Client</h3>
+            <div class="client-logos">
+              <ul>
+                <li><img src="images/logo1.jpg" alt=""></li>
+                <li><img src="images/logo2.jpg" alt=""></li>
+                <li><img src="images/logo3.jpg" alt=""></li>
+                <li><img src="images/logo4.jpg" alt=""></li>
+                <li><img src="images/logo5.jpg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="footer-dark">
+    <div class="topouther">
+      <div class="container clearfix">
+        <section class="col_two_third">
+          <div class="home-left"><i class="fa fa-home"></i><span>Apolostreet, Rochaster Usa</span></div>
+          <div class="no-mid"><i class="fa fa-mobile"></i><span>846 - 489 - 1679</span></div>
+          <div class="msg-right"><i class="fa fa-envelope-o"></i><span><a href="mailto:info@themeprofuse.com">info@themeprofuse.com</a></span></div>
+        </section>
+        <section class="col_one_third col_last mar-bot0">
+          <div class="social-icons"> <a class="tw" href="#"></a> <a class="fb" href="#"></a> <a class="vi" href="#"></a> <a class="soc" href="#"></a> <a class="dri" href="#"></a> </div>
+        </section>
+      </div>
+    </div>
+    <div class="footer-bg">
+      <div class="container clearfix">
+        <div class="footer-widgets-wrap clearfix">
+          <div class="col_one_fourth">
+            <div class="widget clearfix">
+              <h4>Newsletter</h4>
+              <div class="left-newsletter clearfix">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis euismod mollis. </p>
+                <input name="" type="text" placeholder="Type Email" class="email-type">
+                <input name="Sign Up" type="submit" class="signup" value="Sign Up" id="Sign Up">
+              </div>
+            </div>
+          </div>
+          <div class="col_one_fourth">
+            <div class="widget widget_links clearfix">
+              <h4 class="widget-title">Latest Tweet</h4>
+              <div class="latest-tw clearfix">
+                <div class="twitterdiv">
+                  <p> <span class="blu"><a href="#">@designprefix</a></span> Integer eu <br>
+                    libero sit amet nisl  nec porttitor <br>
+                    <span class="gray">5 hour ago</span> </p>
+                </div>
+                <div class="twitterdiv">
+                  <p> <span class="blu"><a href="#">@designprefix</a></span> Integer eu <br>
+                    libero sit amet nisl  nec porttitor <br>
+                    <span class="gray">5 hour ago</span> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col_one_fourth">
+            <div id="flickr_widget-1" class="widget latestpost clearfix">
+              <h4 class="widget-title">Latest Post </h4>
+              <div class="post-bg clearfix">
+                <div class="left-img"><img src="images/footerimg.jpg" alt=""></div>
+                <div class="right-txt">
+                  <p> <a href="#">Integer eu livvvbero siamet nisl  nec porttitor eos et accusam</a> </p>
+                </div>
+              </div>
+              <div class="post-bg clearfix">
+                <div class="left-img"><img src="images/footerimg2.jpg" alt=""></div>
+                <div class="right-txt">
+                  <p> <a href="#">Integer eu livvvbero siamet nisl  nec porttitor eos et accusam</a> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col_one_fourth">
+            <div class="widget flickr-widget clearfix">
+              <h4>Photo Stream</h4>
+              <div id="flickr_widget" class="flickrfeed" data-id="52617155@N08" data-count="6" data-type="user"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="copyrights" class="copyrights-dark">
+    <div class="container clearfix">
+      <div class="col_half"> Copyright 2012 - Element. WordPress theme </div>
+      <div class="col_half col_last tright"> Made by <a href="#">DesignPrefix.com</a> Premium WordPress themes </div>
+    </div>
+  </div>
+</div>
+<div id="gotoTop" class="fa fa-angle-up"></div>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.plugins.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.revolution.js"></script>
+
+
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/sticky-header.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/styleswitch.js"></script>
+<div class="switcher"></div>
+</body>
+</html>
