@@ -2,7 +2,7 @@
 $stdout.sync = true
 
 use Rack::Static,
-  :urls => ["/images", "/js", "/css"],
+  :urls => ["/images", "/js", "/css", "/fonts", "/switcher"],
   :root => "public"
 
 map "/" do
@@ -43,3 +43,4 @@ map "/Browns-Involved" do
   ]
 }
 end
+
