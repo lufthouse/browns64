@@ -72,7 +72,7 @@
                             AJAX Contact Form
                         ============================================= -->
           <div id="contact-form-container">
-            <h3>Hours<span>&nbsp;</span></h3>
+            <h3>Museum Hours<span>&nbsp;</span></h3>
               <ul class="star-bul">
                 <li>Monday: CLOSED</li>
                 <li>Tuesday-Saturday: 10:00 am - 5:00 pm</li>
@@ -89,37 +89,13 @@
                     <li>Children 2 and under: Free</li>
                       </ul>
               <p>Group Rates are available for 12+ people. </p>
-              
-            </form>
           </div>
-          <script type="text/javascript">                            
-                            
-                            $("#template-contactform").validate({
-                        		submitHandler: function(form) {
-                        			
-                                    $(form).find('.btn').prepend('<i class="icon-spinner icon-spin"></i>').addClass('disabled').attr('disabled', 'disabled');
-                                    
-                        			$(form).ajaxSubmit({
-                        				target: '#contact-form-result',
-                                        success: function() {
-                                            $("#template-contactform").fadeOut(500, function(){
-                                                $('#contact-form-result').fadeIn(500);
-                                            });
-                                        },
-                                        error: function() {
-                                            $('#contact-form-result').fadeIn(500);
-                                            $("#template-contactform").find('.btn').remove('<i class="icon-spinner icon-spin"></i>').removeClass('disabled').removeAttr('disabled');
-                                        }
-                        			});
-                                    
-                        		}
-                        	});
-                            
-                        </script>
         </div>
+        
         <div class="col_half entry_content col_last nobottommargin">
-          <div style="height: 250px; margin-bottom: 30px;">
-            <div id="google-map"></div>
+          <div style="height: 250px">
+          <a href="https://www.google.com/maps/place/Western+Reserve+Historical+Society/@41.513508,-81.610474,17z/data=!4m2!3m1!1s0x0:0xf5c494a51fc2c946?hl=en" target="_blank"><img src="images/map.png"/></a>
+            <!--<div id="google-map"></div>
     <script type="text/javascript">
                             $('#google-map').gMap({
                                 
@@ -144,7 +120,7 @@
                             });
                             
                             </script>
-          </div>
+          </div>-->
             <!--Second Column Start -->
           <div class="col_half">
             <div class="product-feature cont">
